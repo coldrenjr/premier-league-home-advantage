@@ -6,7 +6,8 @@ An analysis in R of whether home teams have a measurable advantage in the Englis
 Do Premier League home teams perform better than away teams, and is the difference statistically significant?
 
 ## Data
-1,140 matches from the 2023-24, 2024-25, and 2025-26 seasons (380 per season). Match data comes from [https://www.football-data.co.uk](https://football-data.co.uk/englandm.php)
+1,140 matches from the 2023-24, 2024-25, and 2025-26 seasons (380 per season). Match data comes from [football-data.co.uk](https://football-data.co.uk/englandm.php).
+
 ## Method
 - Loaded and combined three seasons of match results in R using `tidyverse`
 - Calculated result percentages and average goals
@@ -30,8 +31,9 @@ A paired t-test on goals per match gave a mean difference of 0.24 goals (t = 4.3
 Home teams won about 11 percentage points more matches than away teams and scored about a quarter of a goal more per match. The difference is statistically significant, but modest in size.
 
 ## Files
-- `premier_league_home_field_analysis.R`: the full analysis script
-- `Prem23-24.csv`, `Prem24-25.csv`, `Prem25-26.csv`: match data
+- [premier_league_home_field_analysis.R](premier_league_home_field_analysis.R): the full analysis script
+- [Prem23-24.csv](Prem23-24.csv), [Prem24-25.csv](Prem24-25.csv), [Prem25-26.csv](Prem25-26.csv): match data
+- [premier_league_analysis_chart.png](premier_league_analysis_chart.png): results chart
 
 ## How to run
 Download the files into one folder, open `premier_league_home_field_analysis.R` in RStudio, install `tidyverse` if needed, and run the script.
